@@ -27,7 +27,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse id=navMenu">
+          <div class="collapse navbar-collapse navMenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a href="/index.html" class="nav-link">What should I learn?</a>
@@ -46,9 +46,10 @@
         </div>
       </div>
     </nav>
-    <section class="">
+    <section >
+      <!--Main Bar-->
       <div class="container">
-        <h1 class="mt-5 mb-5">Please contact Us for more information!</h1>
+        <h1 class="m-5">Please contact Us for more information!</h1>
         <form class="m-5">
           <div class="mb-3 mt-lg-5">
             <label for="exampleInputEmail1" class="form-label"
@@ -61,7 +62,7 @@
               aria-describedby="emailHelp"
             />
             <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
+              Please Enter Your Email.
             </div>
           </div>
           <div class="mb-3">
@@ -88,9 +89,11 @@
         </form>
       </div>
     </section>
+    <!--Main bar-->
     <section>
+      <!--Footer Bar-->
       <footer
-        class="bg-black text-light float-lg-none d-flex justify-content-between active v"
+        class="bg-black text-light float-lg-none d-flex justify-content-between active navbar-toggler mt-3 mb-0"
       >
         <a class="text-decoration-none text-success m-5" href="#">Links</a>
         <a class="text-decoration-none text-success m-5" href="#">projects</a>
@@ -100,6 +103,50 @@
         <a class="text-decoration-none text-success m-5" href="#">Community</a>
         <a class="text-decoration-none text-success m-5" href="#">Home</a>
       </footer>
+    </section>
+    <!--search bar-->
+    <section>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">React Courses</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Toturial Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Learn Axios</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
     </section>
   </body>
 </html>
